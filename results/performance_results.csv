@@ -1,0 +1,130 @@
+category,algorithm,case,input_size,time_seconds,theoretical_complexity
+sorting,Bubble Sort,best,100,0.0000063180,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Bubble Sort,best,250,0.0000108050,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Bubble Sort,best,500,0.0000234490,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Bubble Sort,best,800,0.0000384390,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Bubble Sort,average,100,0.0003339480,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Bubble Sort,average,250,0.0018797220,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Bubble Sort,average,500,0.0095676160,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Bubble Sort,average,800,0.0250606500,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Bubble Sort,worst,100,0.0003526400,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Bubble Sort,worst,250,0.0021643150,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Bubble Sort,worst,500,0.0104020930,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Bubble Sort,worst,800,0.0278855370,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Bubble Sort,best,100,0.0002231460,Best/Average/Worst O(n^2)
+sorting,Recursive Bubble Sort,best,250,0.0018267690,Best/Average/Worst O(n^2)
+sorting,Recursive Bubble Sort,best,500,0.0060723590,Best/Average/Worst O(n^2)
+sorting,Recursive Bubble Sort,best,800,0.0170788150,Best/Average/Worst O(n^2)
+sorting,Recursive Bubble Sort,average,100,0.0003029070,Best/Average/Worst O(n^2)
+sorting,Recursive Bubble Sort,average,250,0.0018259660,Best/Average/Worst O(n^2)
+sorting,Recursive Bubble Sort,average,500,0.0085358170,Best/Average/Worst O(n^2)
+sorting,Recursive Bubble Sort,average,800,0.0258234130,Best/Average/Worst O(n^2)
+sorting,Recursive Bubble Sort,worst,100,0.0003885810,Best/Average/Worst O(n^2)
+sorting,Recursive Bubble Sort,worst,250,0.0027022840,Best/Average/Worst O(n^2)
+sorting,Recursive Bubble Sort,worst,500,0.0101205320,Best/Average/Worst O(n^2)
+sorting,Recursive Bubble Sort,worst,800,0.0288770820,Best/Average/Worst O(n^2)
+sorting,Selection Sort,best,100,0.0002760270,Best/Average/Worst O(n^2)
+sorting,Selection Sort,best,250,0.0014025760,Best/Average/Worst O(n^2)
+sorting,Selection Sort,best,500,0.0049392390,Best/Average/Worst O(n^2)
+sorting,Selection Sort,best,800,0.0141323560,Best/Average/Worst O(n^2)
+sorting,Selection Sort,average,100,0.0001755520,Best/Average/Worst O(n^2)
+sorting,Selection Sort,average,250,0.0010811350,Best/Average/Worst O(n^2)
+sorting,Selection Sort,average,500,0.0051423360,Best/Average/Worst O(n^2)
+sorting,Selection Sort,average,800,0.0140283030,Best/Average/Worst O(n^2)
+sorting,Selection Sort,worst,100,0.0001954780,Best/Average/Worst O(n^2)
+sorting,Selection Sort,worst,250,0.0014088050,Best/Average/Worst O(n^2)
+sorting,Selection Sort,worst,500,0.0056313000,Best/Average/Worst O(n^2)
+sorting,Selection Sort,worst,800,0.0129560550,Best/Average/Worst O(n^2)
+sorting,Insertion Sort,best,100,0.0000089860,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Insertion Sort,best,250,0.0000175480,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Insertion Sort,best,500,0.0000358720,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Insertion Sort,best,800,0.0000588330,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Insertion Sort,average,100,0.0001979510,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Insertion Sort,average,250,0.0010605240,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Insertion Sort,average,500,0.0056110460,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Insertion Sort,average,800,0.0125445410,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Insertion Sort,worst,100,0.0004244640,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Insertion Sort,worst,250,0.0022960120,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Insertion Sort,worst,500,0.0092513810,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Insertion Sort,worst,800,0.0250998890,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,best,100,0.0000124010,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,best,250,0.0000505230,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,best,500,0.0001617560,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,best,800,0.0001571040,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,average,100,0.0002003620,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,average,250,0.0011980510,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,average,500,0.0048859460,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,average,800,0.0123835140,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,worst,100,0.0004011380,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,worst,250,0.0021628340,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,worst,500,0.0106794810,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Recursive Insertion Sort,worst,800,0.0242147640,"Best O(n), Average O(n^2), Worst O(n^2)"
+sorting,Merge Sort,best,100,0.0000918270,Best/Average/Worst O(n log n)
+sorting,Merge Sort,best,250,0.0001757170,Best/Average/Worst O(n log n)
+sorting,Merge Sort,best,500,0.0003924880,Best/Average/Worst O(n log n)
+sorting,Merge Sort,best,800,0.0006550430,Best/Average/Worst O(n log n)
+sorting,Merge Sort,average,100,0.0000839310,Best/Average/Worst O(n log n)
+sorting,Merge Sort,average,250,0.0002456250,Best/Average/Worst O(n log n)
+sorting,Merge Sort,average,500,0.0012907980,Best/Average/Worst O(n log n)
+sorting,Merge Sort,average,800,0.0017111330,Best/Average/Worst O(n log n)
+sorting,Merge Sort,worst,100,0.0000670300,Best/Average/Worst O(n log n)
+sorting,Merge Sort,worst,250,0.0002466220,Best/Average/Worst O(n log n)
+sorting,Merge Sort,worst,500,0.0004580360,Best/Average/Worst O(n log n)
+sorting,Merge Sort,worst,800,0.0007312050,Best/Average/Worst O(n log n)
+sorting,Quick Sort,best,100,0.0000562470,"Best/Average O(n log n), Worst O(n^2)"
+sorting,Quick Sort,best,250,0.0001527800,"Best/Average O(n log n), Worst O(n^2)"
+sorting,Quick Sort,best,500,0.0004696680,"Best/Average O(n log n), Worst O(n^2)"
+sorting,Quick Sort,best,800,0.0007043060,"Best/Average O(n log n), Worst O(n^2)"
+sorting,Quick Sort,average,100,0.0001226150,"Best/Average O(n log n), Worst O(n^2)"
+sorting,Quick Sort,average,250,0.0002817880,"Best/Average O(n log n), Worst O(n^2)"
+sorting,Quick Sort,average,500,0.0005705500,"Best/Average O(n log n), Worst O(n^2)"
+sorting,Quick Sort,average,800,0.0010508650,"Best/Average O(n log n), Worst O(n^2)"
+sorting,Quick Sort,worst,100,0.0000572110,"Best/Average O(n log n), Worst O(n^2)"
+sorting,Quick Sort,worst,250,0.0001480910,"Best/Average O(n log n), Worst O(n^2)"
+sorting,Quick Sort,worst,500,0.0004011000,"Best/Average O(n log n), Worst O(n^2)"
+sorting,Quick Sort,worst,800,0.0006548140,"Best/Average O(n log n), Worst O(n^2)"
+searching,Linear Search,best,1000,0.0000016100,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,best,5000,0.0000003290,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,best,10000,0.0000003240,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,best,20000,0.0000003310,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,best,50000,0.0000003380,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,average,1000,0.0000143780,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,average,5000,0.0000733400,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,average,10000,0.0001499120,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,average,20000,0.0002956680,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,average,50000,0.0007746170,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,worst,1000,0.0000279700,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,worst,5000,0.0001429180,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,worst,10000,0.0002867920,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,worst,20000,0.0006032010,"Best O(1), Average/Worst O(n)"
+searching,Linear Search,worst,50000,0.0018117130,"Best O(1), Average/Worst O(n)"
+searching,Iterative Binary Search,best,1000,0.0000024180,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,best,5000,0.0000015300,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,best,10000,0.0000015230,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,best,20000,0.0000018650,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,best,50000,0.0000015910,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,average,1000,0.0000012750,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,average,5000,0.0000015230,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,average,10000,0.0000015610,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,average,20000,0.0000015750,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,average,50000,0.0000015880,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,worst,1000,0.0000014120,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,worst,5000,0.0000015330,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,worst,10000,0.0000015700,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,worst,20000,0.0000017360,"Best O(1), Average/Worst O(log n)"
+searching,Iterative Binary Search,worst,50000,0.0000019500,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,best,1000,0.0000021220,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,best,5000,0.0000016170,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,best,10000,0.0000015830,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,best,20000,0.0000019660,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,best,50000,0.0000018720,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,average,1000,0.0000019480,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,average,5000,0.0000016250,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,average,10000,0.0000016900,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,average,20000,0.0000018070,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,average,50000,0.0000019610,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,worst,1000,0.0000012660,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,worst,5000,0.0000014880,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,worst,10000,0.0000017500,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,worst,20000,0.0000019730,"Best O(1), Average/Worst O(log n)"
+searching,Recursive Binary Search,worst,50000,0.0000022870,"Best O(1), Average/Worst O(log n)"

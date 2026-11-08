@@ -1,0 +1,25 @@
+DAA PROJECT - SAMPLE EXECUTION OUTPUTS
+======================================
+
+1) SORTING ALGORITHMS
+Input: [64, 25, 12, 22, 11]
+Bubble Sort: [11, 12, 22, 25, 64]
+Recursive Bubble Sort: [11, 12, 22, 25, 64]
+Selection Sort: [11, 12, 22, 25, 64]
+Insertion Sort: [11, 12, 22, 25, 64]
+Recursive Insertion Sort: [11, 12, 22, 25, 64]
+Merge Sort: [11, 12, 22, 25, 64]
+Quick Sort: [11, 12, 22, 25, 64]
+
+2) SEARCHING ALGORITHMS
+Sorted input: [10, 20, 30, 40, 50]
+Target: 40
+Linear Search: index 3
+Iterative Binary Search: index 3
+Recursive Binary Search: index 3
+
+3) PERFORMANCE ANALYZER
+CSV: results/performance_results.csv
+Graphs: results/graphs/*.png
+Experiment rows: 129
+Note: Execution timings depend on the computer and Python environment.
