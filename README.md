@@ -1,4 +1,4 @@
-# RollNo-DAA-Your_Name
+# IC2k23-36-DAA-HARSHIT SONEL
 
 Design and Analysis of Algorithms (DAA) lab repository.
 
