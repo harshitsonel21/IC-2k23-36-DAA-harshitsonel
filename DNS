@@ -1,0 +1,85 @@
+from collections import OrderedDict
+import time
+
+class DNSResolver:
+    def __init__(self, capacity=3):
+        self.cache = OrderedDict()
+        self.capacity = capacity
+
+        self.dns_records = {
+            "google.com": "142.250.183.14",
+            "youtube.com": "142.250.190.46",
+            "github.com": "140.82.112.4"
+        }
+
+    def resolve(self, domain):
+        current_time = time.time()
+
+        # Check cache
+        if domain in self.cache:
+            ip, expiry = self.cache[domain]
+
+            if current_time < expiry:
+                self.cache.move_to_end(domain)
+                print("Cache Hit!")
+                return ip
+            else:
+                del self.cache[domain]
+
+        print("Cache Miss! Starting DNS Lookup...")
+
+        # Simulate DNS hierarchy
+        print("1. Asking Root Server...")
+        print("2. Asking TLD Server...")
+        print("3. Asking Authoritative Server...")
+
+        ip = self.dns_records.get(domain)
+
+        if ip is None:
+            return "Domain not found"
+
+        # LRU eviction
+        if len(self.cache) >= self.capacity:
+            self.cache.popitem(last=False)
+
+        # Store with TTL of 60 seconds
+        self.cache[domain] = (ip, current_time + 60)
+
+        return ip
+
+
+resolver = DNSResolver()
+
+print("DNS Resolution Simulation")
+print("-------------------------")
+
+print("Google:", resolver.resolve("google.com"))
+print("\nGoogle:", resolver.resolve("google.com"))
+print("\nGitHub:", resolver.resolve("github.com"))
+
+# 2 Sample Output
+
+DNS Resolution Simulation
+-------------------------
+Cache Miss! Starting DNS Lookup...
+1. Asking Root Server...
+2. Asking TLD Server...
+3. Asking Authoritative Server...
+Google: 142.250.183.14
+
+Cache Hit!
+Google: 142.250.183.14
+
+Cache Miss! Starting DNS Lookup...
+1. Asking Root Server...
+2. Asking TLD Server...
+3. Asking Authoritative Server...
+GitHub: 140.82.112.4
+
+# 3 GitHub folder structure
+
+DNS/
+│
+├── dns_simulation.py
+├── README.md
+└── output.txt
